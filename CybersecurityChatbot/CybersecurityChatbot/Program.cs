@@ -1,2 +1,22 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace CybersecurityChatbot
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                Chatbot chatbot = new Chatbot();
+                chatbot.Start();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadKey();
+            }
+        }
+    }
+}
