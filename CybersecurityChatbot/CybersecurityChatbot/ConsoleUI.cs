@@ -46,7 +46,7 @@ namespace CybersecurityChatbot
             while (string.IsNullOrEmpty(name))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("❌ I didn't catch that. Please enter your name: ");
+                Console.Write(" I didn't catch that. Please enter your name: ");
                 Console.ResetColor();
                 name = Console.ReadLine()?.Trim();
             }
@@ -56,7 +56,7 @@ namespace CybersecurityChatbot
         public void DisplayWelcomeMessage(string userName)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"\n🌟 Welcome, {userName}! 🌟");
+            Console.WriteLine($"\n Welcome, {userName}! ");
             Console.ResetColor();
             TypeEffect($"Hello {userName}! I'm your Cybersecurity Awareness Bot. I'm here to help you stay safe online.", ConsoleColor.Cyan);
             Console.WriteLine();
@@ -81,7 +81,7 @@ namespace CybersecurityChatbot
         public string GetUserInput(string userName)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write($"💬 {userName} > ");
+            Console.Write($" {userName} > ");
             Console.ResetColor();
 
             string input = Console.ReadLine()?.Trim();
@@ -90,7 +90,7 @@ namespace CybersecurityChatbot
             while (string.IsNullOrEmpty(input))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("❌ I didn't catch that. Please type your question: ");
+                Console.Write(" I didn't catch that. Please type your question: ");
                 Console.ResetColor();
                 input = Console.ReadLine()?.Trim();
             }
@@ -101,7 +101,7 @@ namespace CybersecurityChatbot
         public void DisplayResponse(string response)
         {
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.Write("🤖 Bot > ");
+            Console.Write(" Bot > ");
             Console.ResetColor();
             TypeEffect(response, ConsoleColor.White);
             Console.WriteLine();
@@ -110,11 +110,11 @@ namespace CybersecurityChatbot
         public void DisplayExitMessage(string userName)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine($"\n🛡️ Stay safe online, {userName}! 🛡️");
+            Console.WriteLine($"\n Stay safe online, {userName}! ");
             Console.ResetColor();
             Console.WriteLine("Remember: Use strong passwords, avoid suspicious links, and keep your software updated.");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("👋 Goodbye and stay secure!");
+            Console.WriteLine(" Goodbye and stay secure!");
             Console.ResetColor();
         }
 
