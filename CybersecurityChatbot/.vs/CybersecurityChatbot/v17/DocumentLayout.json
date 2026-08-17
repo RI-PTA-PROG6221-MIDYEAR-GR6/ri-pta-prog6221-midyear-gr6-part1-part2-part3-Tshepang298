@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\cybersecuritychatbot\\cybersecuritychatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\cybersecuritychatbot\\cybersecuritychatbot\\responsesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\responsesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\cybersecuritychatbot\\cybersecuritychatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\cybersecuritychatbot\\cybersecuritychatbot\\responsesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\responsesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\cybersecuritychatbot\\cybersecuritychatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2938E438-AEA9-47F8-A32E-DF83DF4342CF}|CybersecurityChatbot\\CybersecurityChatbot.csproj|solutionrelative:cybersecuritychatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,16 +38,16 @@
               "Title": "ConsoleUI.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\CybersecurityChatbot\\CybersecurityChatbot\\ConsoleUI.cs",
               "RelativeDocumentMoniker": "CybersecurityChatbot\\ConsoleUI.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\CybersecurityChatbot\\CybersecurityChatbot\\ConsoleUI.cs",
-              "RelativeToolTip": "CybersecurityChatbot\\ConsoleUI.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCkAAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\CybersecurityChatbot\\CybersecurityChatbot\\ConsoleUI.cs*",
+              "RelativeToolTip": "CybersecurityChatbot\\ConsoleUI.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T11:03:52.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ResponseSystem.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\CybersecurityChatbot\\CybersecurityChatbot\\ResponseSystem.cs",
               "RelativeDocumentMoniker": "CybersecurityChatbot\\ResponseSystem.cs",
@@ -66,14 +66,14 @@
               "RelativeDocumentMoniker": "CybersecurityChatbot\\Chatbot.cs",
               "ToolTip": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\CybersecurityChatbot\\CybersecurityChatbot\\Chatbot.cs",
               "RelativeToolTip": "CybersecurityChatbot\\Chatbot.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowBQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwBQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T10:58:38.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\CybersecurityChatbot\\CybersecurityChatbot\\Program.cs",
               "RelativeDocumentMoniker": "CybersecurityChatbot\\Program.cs",
