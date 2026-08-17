@@ -74,7 +74,7 @@ namespace CybersecurityChatbot
         public void DisplaySeparator()
         {
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine("───══════════════════════════════════════════════───");
+            Console.WriteLine("───════════════════════════════════════════════════════════════════════════════════════════════───");
             Console.ResetColor();
         }
 
