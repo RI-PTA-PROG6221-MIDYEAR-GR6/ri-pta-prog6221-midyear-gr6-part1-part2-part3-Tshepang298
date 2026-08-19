@@ -1,0 +1,15 @@
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\CybersecurityChatbot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\CybersecurityChatbot.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\CybersecurityChatbot.AssemblyInfo.cs
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\CybersecurityChatbot.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\CybersecurityChatbot.sourcelink.json
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\bin\Debug\net9.0\CybersecurityChatbot.exe
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\bin\Debug\net9.0\CybersecurityChatbot.deps.json
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\bin\Debug\net9.0\CybersecurityChatbot.runtimeconfig.json
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\bin\Debug\net9.0\CybersecurityChatbot.dll
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\bin\Debug\net9.0\CybersecurityChatbot.pdb
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\CybersecurityChatbot.dll
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\refint\CybersecurityChatbot.dll
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\CybersecurityChatbot.pdb
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\CybersecurityChatbot.genruntimeconfig.cache
+C:\Users\Student\Desktop\GitHub\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\CybersecurityChatbot\CybersecurityChatbot\obj\Debug\net9.0\ref\CybersecurityChatbot.dll
