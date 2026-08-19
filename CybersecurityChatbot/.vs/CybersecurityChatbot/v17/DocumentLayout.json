@@ -26,12 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -55,8 +51,7 @@
               "RelativeToolTip": "CybersecurityChatbot\\ResponseSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T10:59:56.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T10:59:56.485Z"
             },
             {
               "$type": "Document",
@@ -68,8 +63,7 @@
               "RelativeToolTip": "CybersecurityChatbot\\Chatbot.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAqwBQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T10:58:38.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T10:58:38.618Z"
             },
             {
               "$type": "Document",
@@ -81,8 +75,11 @@
               "RelativeToolTip": "CybersecurityChatbot\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T10:51:18.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T10:51:18.125Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
