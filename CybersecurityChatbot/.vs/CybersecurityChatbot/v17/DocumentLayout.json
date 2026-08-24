@@ -26,12 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -42,8 +38,7 @@
               "RelativeToolTip": "CybersecurityChatbot\\ConsoleUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-17T11:03:52.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-17T11:03:52.631Z"
             },
             {
               "$type": "Document",
@@ -53,7 +48,7 @@
               "RelativeDocumentMoniker": "CybersecurityChatbot\\ResponseSystem.cs",
               "ToolTip": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\CybersecurityChatbot\\CybersecurityChatbot\\ResponseSystem.cs",
               "RelativeToolTip": "CybersecurityChatbot\\ResponseSystem.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAEcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwEcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T10:59:56.485Z",
               "EditorCaption": ""
@@ -81,6 +76,10 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-17T10:51:18.125Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
