@@ -38,22 +38,40 @@ namespace CybersecurityChatbot
         {
             try
             {
-                // Get the base directory where the executable is running
-                string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-
-                // Go up one level to find the Audio folder (if running from bin/debug/net6.0)
-                string audioPath = Path.Combine(baseDirectory, "Audio", "greeting.wav");
-
-                // Also check in the project root directory (for development)
-                if (!File.Exists(audioPath))
+                // Try multiple possible paths for the audio file
+                string[] possiblePaths = new string[]
                 {
-                    // Try going up two levels from bin/debug/net6.0 to project root
-                    string projectRoot = Path.GetFullPath(Path.Combine(baseDirectory, "..", "..", ".."));
-                    audioPath = Path.Combine(projectRoot, "Audio", "greeting.wav");
+                    // Path where Audio folder is in project root (relative to executable)
+                    Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Audio", "greeting.wav"),
+                    // If running from bin/debug/net9.0, go up to project root
+                    Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Audio", "greeting.wav"),
+                    // Current directory
+                    Path.Combine(Directory.GetCurrentDirectory(), "Audio", "greeting.wav"),
+                    // Simple relative path
+                    "Audio/greeting.wav",
+                    // If WAV is directly in project root
+                    Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "greeting.wav"),
+                    Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "greeting.wav")
+                };
+
+                string audioPath = null;
+                foreach (string path in possiblePaths)
+                {
+                    try
+                    {
+                        string fullPath = Path.GetFullPath(path);
+                        if (File.Exists(fullPath))
+                        {
+                            audioPath = fullPath;
+                            break;
+                        }
+                    }
+                    catch { /* Skip invalid paths */ }
                 }
 
-                if (File.Exists(audioPath))
+                if (audioPath != null && File.Exists(audioPath))
                 {
+                    Console.WriteLine($"🔊 Playing audio greeting...");
                     using (SoundPlayer player = new SoundPlayer(audioPath))
                     {
                         player.PlaySync(); // Play and wait for completion
@@ -63,6 +81,7 @@ namespace CybersecurityChatbot
                 {
                     // Fallback to text-only greeting if audio file not found
                     Console.WriteLine("[Audio greeting not found. Welcome to the Cybersecurity Awareness Bot!]");
+                    Console.WriteLine("💡 Tip: Place greeting.wav in the Audio folder.");
                 }
             }
             catch (Exception ex)
