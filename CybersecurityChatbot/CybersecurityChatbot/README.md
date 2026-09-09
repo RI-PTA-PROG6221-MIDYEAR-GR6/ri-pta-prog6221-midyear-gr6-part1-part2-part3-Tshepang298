@@ -233,5 +233,92 @@ Provides fallback responses for unrecognized queries
 
 Handles greetings and farewells
 
+🔧 Troubleshooting
+Issue: "Audio greeting not found"
+Solution: Ensure greeting.wav is in the Audio folder and set to "Copy to Output Directory"
 
+Issue: "CS1069: SoundPlayer not found"
+Solution: Install the required package:
+
+dotnet add package System.Windows.Extensions
+
+Issue: Audio doesn't play on Linux/macOS
+Solution: The application will display a text-only fallback. Audio playback is Windows-only with System.Media.
+
+Issue: CI workflow failing
+Solution:
+
+Check the Actions tab for detailed error messages
+
+Ensure the project builds locally with dotnet build
+
+Verify the workflow file syntax
+
+🎓 Learning Outcomes Achieved
+Write a console application that requires user input
+
+Apply string manipulation for response matching
+
+Use automatic properties and class structures
+
+Implement voice greeting with WAV audio
+
+Display ASCII art for visual presentation
+
+Apply input validation and error handling
+
+Use colored console output and formatting
+
+Implement GitHub version control with CI
+
+📋 Part 1 Requirements Checklist
+Requirement	Status
+Voice Greeting (WAV file)	        ✅
+ASCII Art Display	                ✅
+User Name Input	                    ✅
+Text-Based Welcome Message	        ✅
+Cybersecurity Responses	            ✅
+Input Validation	                ✅
+Colored Console UI	                ✅
+Typing Effect	                    ✅
+Code Structure (Multiple Classes)	✅
+GitHub (6+ commits)	                ✅
+CI Workflow (GitHub Actions)	    ✅
+README with Documentation	        ✅
+
+📝 License
+This project is for educational purposes as part of The Independent Institute of Education (Pty) Ltd 2026.
+
+👨‍💻 Author
+John Tshepang Masarira
+ST 10498742
+PROG 2A 6221
+
+https://github.com/RI-PTA-PROG6221-MIDYEAR-GR6/ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298/tree/main
+
+🎥 Video Presentation Requirements
+For your unlisted YouTube video, cover:
+
+Code Structure - Explain each class and why you separated concerns
+
+Logic and Flow - Walk through the Start() method and conversation loop
+
+Voice Integration - Show the Audio folder and explain SoundPlayer
+
+Visual Formatting - Demonstrate the ASCII art, colors, and typing effect
+
+Application Demo - Run the application and show interactions
+
+GitHub & CI - Show the repository and CI workflow
+
+🚀 Future Improvements (Part 2 & 3)
+GUI implementation with WPF/WinForms
+
+Advanced topic recognition
+
+Interactive game or task list
+
+Enhanced cybersecurity tips
+
+Database integration for user profiles
 
