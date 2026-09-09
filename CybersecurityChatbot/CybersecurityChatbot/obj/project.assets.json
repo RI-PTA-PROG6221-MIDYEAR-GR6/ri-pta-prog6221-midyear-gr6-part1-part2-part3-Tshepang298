@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "System.Windows.Extensions/10.0.12": {
+      "System.Windows.Extensions/9.0.0": {
         "type": "package",
         "compile": {
           "lib/net9.0/System.Windows.Extensions.dll": {
@@ -24,29 +24,26 @@
     }
   },
   "libraries": {
-    "System.Windows.Extensions/10.0.12": {
-      "sha512": "J+FZruVjELSk2NMe3MQNyCXszIlx1b7qOjUBCSbhabomYIVWpFS5QCnPdxE8K6SVt7Gja7ohpXX1oLLXRAIuzw==",
+    "System.Windows.Extensions/9.0.0": {
+      "sha512": "U9msthvnH2Fsw7xwAvIhNHOdnIjOQTwOc8Vd0oGOsiRcGMGoBFlUD6qtYawRUoQdKH9ysxesZ9juFElt1Jw/7A==",
       "type": "package",
-      "path": "system.windows.extensions/10.0.12",
+      "path": "system.windows.extensions/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
         "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net10.0/System.Windows.Extensions.dll",
-        "lib/net10.0/System.Windows.Extensions.xml",
         "lib/net8.0/System.Windows.Extensions.dll",
         "lib/net8.0/System.Windows.Extensions.xml",
         "lib/net9.0/System.Windows.Extensions.dll",
         "lib/net9.0/System.Windows.Extensions.xml",
-        "runtimes/win/lib/net10.0/System.Windows.Extensions.dll",
-        "runtimes/win/lib/net10.0/System.Windows.Extensions.xml",
         "runtimes/win/lib/net8.0/System.Windows.Extensions.dll",
         "runtimes/win/lib/net8.0/System.Windows.Extensions.xml",
         "runtimes/win/lib/net9.0/System.Windows.Extensions.dll",
         "runtimes/win/lib/net9.0/System.Windows.Extensions.xml",
-        "system.windows.extensions.10.0.12.nupkg.sha512",
+        "system.windows.extensions.9.0.0.nupkg.sha512",
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -54,7 +51,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "System.Windows.Extensions >= 10.0.12"
+      "System.Windows.Extensions >= 9.0.0"
     ]
   },
   "packageFolders": {
@@ -109,7 +106,7 @@
         "dependencies": {
           "System.Windows.Extensions": {
             "target": "Package",
-            "version": "[10.0.12, )"
+            "version": "[9.0.0, )"
           }
         },
         "imports": [
