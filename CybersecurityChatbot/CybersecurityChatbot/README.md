@@ -296,7 +296,7 @@ PROG 2A 6221
 
 https://github.com/RI-PTA-PROG6221-MIDYEAR-GR6/ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298/tree/main
 
-🎥 Video Presentation Requirements
+Video Presentation Requirements
 For your unlisted YouTube video, cover:
 
 Code Structure - Explain each class and why you separated concerns
