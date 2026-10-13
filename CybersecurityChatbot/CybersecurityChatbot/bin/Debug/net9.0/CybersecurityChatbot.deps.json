@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v9.0": {
       "CybersecurityChatbot/1.0.0": {
         "dependencies": {
-          "System.Windows.Extensions": "10.0.12"
+          "System.Windows.Extensions": "9.0.0"
         },
         "runtime": {
           "CybersecurityChatbot.dll": {}
         }
       },
-      "System.Windows.Extensions/10.0.12": {
+      "System.Windows.Extensions/9.0.0": {
         "runtime": {
           "lib/net9.0/System.Windows.Extensions.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.1226.42308"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
           }
         },
         "runtimeTargets": {
           "runtimes/win/lib/net9.0/System.Windows.Extensions.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.1226.42308"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
           }
         }
       }
@@ -38,12 +38,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Windows.Extensions/10.0.12": {
+    "System.Windows.Extensions/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-J+FZruVjELSk2NMe3MQNyCXszIlx1b7qOjUBCSbhabomYIVWpFS5QCnPdxE8K6SVt7Gja7ohpXX1oLLXRAIuzw==",
-      "path": "system.windows.extensions/10.0.12",
-      "hashPath": "system.windows.extensions.10.0.12.nupkg.sha512"
+      "sha512": "sha512-U9msthvnH2Fsw7xwAvIhNHOdnIjOQTwOc8Vd0oGOsiRcGMGoBFlUD6qtYawRUoQdKH9ysxesZ9juFElt1Jw/7A==",
+      "path": "system.windows.extensions/9.0.0",
+      "hashPath": "system.windows.extensions.9.0.0.nupkg.sha512"
     }
   }
 }
