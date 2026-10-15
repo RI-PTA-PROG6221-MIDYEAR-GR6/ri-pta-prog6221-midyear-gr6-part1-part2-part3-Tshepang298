@@ -1,0 +1,22 @@
+
+===== New Session 2026-10-15 13:42:44 =====
+[2026-10-15 13:42:46] Bot: 👋 Hello! I'm your Cybersecurity Awareness Bot. What's your name?
+[2026-10-15 13:42:51] You: hey
+[2026-10-15 13:42:51] Bot: Nice to meet you, hey! Ask me about passwords, phishing, privacy, scams, or malware.
+[2026-10-15 13:43:03] You: how are you
+[2026-10-15 13:43:03] Bot: Hmm, I didn't quite catch that. Could you ask about passwords, phishing, privacy, scams, or malware?
+[2026-10-15 13:43:24] You: i want know about password
+[2026-10-15 13:43:24] Bot: Enable two-factor authentication wherever possible.
+
+===== New Session 2026-10-15 21:49:43 =====
+[2026-10-15 21:49:45] Bot: 👋 Hello! I'm your Cybersecurity Awareness Bot. What's your name?
+[2026-10-15 21:50:59] You: hey
+[2026-10-15 21:50:59] Bot: Nice to meet you, hey! Ask me about passwords, phishing, privacy, scams, or malware.
+[2026-10-15 21:51:15] You: how are you?
+[2026-10-15 21:51:15] Bot: Hmm, I didn't quite catch that. Could you ask about passwords, phishing, privacy, scams, or malware?
+
+===== New Session 2026-10-15 22:03:45 =====
+[2026-10-15 22:03:46] Bot: 👋 Hello! I'm your Cybersecurity Awareness Bot. What's your name?
+
+===== New Session 2026-10-15 22:07:59 =====
+[2026-10-15 22:08:00] Bot: 👋 Hello! I'm your Cybersecurity Awareness Bot. What's your name?

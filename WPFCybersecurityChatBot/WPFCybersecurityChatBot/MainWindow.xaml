@@ -1,0 +1,90 @@
+﻿<Window x:Class="CyberSecurityChatbot.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cybersecurity Awareness Bot - Part 2"
+        Height="720" Width="1050"
+        Background="#0F172A"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- LEFT PANEL -->
+        <Border Grid.Column="0" Background="#111827" Padding="16">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <TextBlock Text="🛡️" FontSize="48" HorizontalAlignment="Center" Foreground="#22D3EE"/>
+                    <TextBlock Text="CYBERSECURITY" FontSize="18" FontWeight="Bold"
+                               Foreground="#22D3EE" HorizontalAlignment="Center"/>
+                    <TextBlock Text="AWARENESS BOT" FontSize="14"
+                               Foreground="#94A3B8" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+                    <TextBlock Text="ASCII Art" Foreground="#FACC15" FontWeight="Bold" Margin="0,10,0,5"/>
+                    <TextBlock FontFamily="Consolas" FontSize="8" Foreground="#22D3EE">
+<![CDATA[
+ ██████╗██╗   ██╗██████╗ ███████╗██████╗
+██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗
+██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝
+██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗
+╚██████╗   ██║   ██████╔╝███████╗██║  ██║
+ ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝
+]]>
+                    </TextBlock>
+
+                    <TextBlock Text="Topics:" Foreground="#FACC15" FontWeight="Bold" Margin="0,20,0,5"/>
+                    <TextBlock Foreground="#E2E8F0" FontSize="12">
+                        • Password safety<LineBreak/>
+                        • Phishing<LineBreak/>
+                        • Privacy<LineBreak/>
+                        • Scams<LineBreak/>
+                        • Malware
+                    </TextBlock>
+
+                    <TextBlock Text="Memory:" Foreground="#FACC15" FontWeight="Bold" Margin="0,20,0,5"/>
+                    <TextBlock x:Name="MemoryDisplay" Foreground="#22D3EE"
+                               FontStyle="Italic" TextWrapping="Wrap" FontSize="12"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+
+        <!-- RIGHT PANEL -->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Border Background="#1E293B" Padding="20,12">
+                <TextBlock Text="Chat" FontSize="18" FontWeight="Bold" Foreground="#E2E8F0"/>
+            </Border>
+
+            <ScrollViewer x:Name="ChatScroll" Grid.Row="1" Padding="20" VerticalScrollBarVisibility="Auto">
+                <StackPanel x:Name="ChatPanel"/>
+            </ScrollViewer>
+
+            <Border Grid.Row="2" Background="#1E293B" Padding="16">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBox x:Name="InputBox" FontSize="14" Padding="10"
+                             Background="#0F172A" Foreground="#E2E8F0"
+                             CaretBrush="#22D3EE"
+                             BorderBrush="#334155" BorderThickness="1"
+                             KeyDown="InputBox_KeyDown"/>
+
+                    <Button Grid.Column="1" Content="Send" Margin="10,0,0,0"
+                            Padding="20,10" Background="#22D3EE" Foreground="#0F172A"
+                            FontWeight="Bold" BorderThickness="0"
+                            Click="SendButton_Click"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
