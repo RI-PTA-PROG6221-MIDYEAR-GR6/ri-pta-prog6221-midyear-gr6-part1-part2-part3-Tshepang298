@@ -24,8 +24,9 @@ namespace CyberSecurityChatbot.WPF
         private void OnLoaded(object sender, RoutedEventArgs e)
         {
             _audioService.PlayGreeting();
-            AddBotMessage("👋 Hello! I'm your Cybersecurity Awareness Bot. What's your name?");
+            AddBotMessage("👋 Hello! I'm your Cybersecurity Bot. What's your name?");
             InputBox.Focus();
+            RefreshTasks();
         }
 
         private void SendButton_Click(object sender, RoutedEventArgs e) => Send();
@@ -43,27 +44,98 @@ namespace CyberSecurityChatbot.WPF
             AddUserMessage(input);
             InputBox.Clear();
 
+            // Set Name
             if (string.IsNullOrEmpty(_responseService.Memory.UserName))
             {
                 _responseService.Memory.UserName = input;
-                AddBotMessage($"Nice to meet you, {input}! Ask me about passwords, " +
-                              $"phishing, privacy, scams, or malware.");
+                AddBotMessage($"Nice to meet you, {input}! I can help with safety tips, tasks, and quizzes.");
                 UpdateMemoryPanel();
                 return;
             }
 
-            if (input.Equals("exit", StringComparison.OrdinalIgnoreCase) ||
-                input.Equals("quit", StringComparison.OrdinalIgnoreCase))
+            // Handle Quiz mode
+            if (_responseService.Quiz.Questions.Count > 0 && !_responseService.Quiz.IsFinished)
             {
-                AddBotMessage($"Stay safe online, {_responseService.Memory.UserName}! Goodbye 👋");
+                HandleQuizAnswer(input);
                 return;
             }
 
+            // Standard Bot Response
             string reply = _responseService.GetResponse(input);
             AddBotMessage(reply);
             UpdateMemoryPanel();
+
+            // Check if a task was added to refresh the list
+            if (input.ToLower().Contains("task") || input.ToLower().Contains("remind"))
+            {
+                RefreshTasks();
+            }
+
+            // Check if quiz just started
+            if (input.ToLower().Contains("quiz") || input.ToLower().Contains("game"))
+            {
+                ShowQuizQuestion();
+            }
         }
 
+        // ---------- QUIZ LOGIC ----------
+        private void ShowQuizQuestion()
+        {
+            var q = _responseService.Quiz.GetCurrentQuestion();
+            QuizQuestionText.Text = q.Question;
+            QuizOptionsPanel.Children.Clear();
+
+            foreach (var opt in q.Options)
+            {
+                var btn = new Button
+                {
+                    Content = opt,
+                    Margin = new Thickness(0, 5, 0, 5),
+                    Padding = new Thickness(10),
+                    Background = new SolidColorBrush(Color.FromRgb(0x33, 0x41, 0x55)),
+                    Foreground = new SolidColorBrush(Colors.White),
+                    HorizontalContentAlignment = HorizontalAlignment.Left
+                };
+                btn.Click += (s, e) =>
+                {
+                    InputBox.Text = opt.Substring(0, 1); // Extract A, B, C
+                    Send();
+                };
+                QuizOptionsPanel.Children.Add(btn);
+            }
+        }
+
+        private void HandleQuizAnswer(string input)
+        {
+            bool isCorrect = _responseService.Quiz.SubmitAnswer(input, out string explanation);
+            string resultMsg = isCorrect ? "✅ Correct! " : "❌ Incorrect. ";
+            resultMsg += explanation;
+
+            QuizResultText.Text = resultMsg;
+
+            if (_responseService.Quiz.IsFinished)
+            {
+                QuizResultText.Text += $"\n🏆 Quiz Finished! Your score: {_responseService.Quiz.Score}/{_responseService.Quiz.Questions.Count}";
+                AddBotMessage($"Quiz Completed! Score: {_responseService.Quiz.Score}/{_responseService.Quiz.Questions.Count}");
+                _responseService.Logger.Log($"Quiz completed. Score: {_responseService.Quiz.Score}");
+            }
+            else
+            {
+                ShowQuizQuestion();
+            }
+        }
+
+        // ---------- TASK LOGIC ----------
+        private void RefreshTasks()
+        {
+            TasksList.Items.Clear();
+            foreach (var t in _responseService.Db.GetTasks())
+            {
+                TasksList.Items.Add(t.DisplayText);
+            }
+        }
+
+        // ---------- CHAT BUBBLES ----------
         private void UpdateMemoryPanel()
         {
             var m = _responseService.Memory;
@@ -91,9 +163,7 @@ namespace CyberSecurityChatbot.WPF
         {
             var bubble = new Border
             {
-                Background = new SolidColorBrush(isUser
-                    ? Color.FromRgb(0x22, 0xD3, 0xEE)
-                    : Color.FromRgb(0x33, 0x41, 0x55)),
+                Background = new SolidColorBrush(isUser ? Color.FromRgb(0x22, 0xD3, 0xEE) : Color.FromRgb(0x33, 0x41, 0x55)),
                 CornerRadius = new CornerRadius(12),
                 Padding = new Thickness(12, 8, 12, 8),
                 Margin = new Thickness(isUser ? 80 : 0, 4, isUser ? 0 : 80, 4),
@@ -105,16 +175,13 @@ namespace CyberSecurityChatbot.WPF
             {
                 Text = text,
                 TextWrapping = TextWrapping.Wrap,
-                Foreground = new SolidColorBrush(isUser
-                    ? Color.FromRgb(0x0F, 0x17, 0x2A)
-                    : Colors.White),
+                Foreground = new SolidColorBrush(isUser ? Color.FromRgb(0x0F, 0x17, 0x2A) : Colors.White),
                 FontSize = 13
             };
 
             ChatPanel.Children.Add(bubble);
 
-            Dispatcher.BeginInvoke(new Action(() =>
-                ChatScroll.ScrollToEnd()), DispatcherPriority.Background);
+            Dispatcher.BeginInvoke(new Action(() => ChatScroll.ScrollToEnd()), DispatcherPriority.Background);
         }
     }
 }
