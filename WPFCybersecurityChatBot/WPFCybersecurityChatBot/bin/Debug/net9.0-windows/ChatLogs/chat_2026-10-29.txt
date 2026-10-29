@@ -1,0 +1,30 @@
+
+===== New Session 2026-10-29 12:38:59 =====
+[2026-10-29 12:39:00] Bot: 👋 Hello! I'm your Cybersecurity Awareness Bot. What's your name?
+[2026-10-29 12:39:08] You: hey
+[2026-10-29 12:39:08] Bot: Nice to meet you, hey! Ask me about passwords, phishing, privacy, scams, or malware.
+[2026-10-29 12:39:14] You: how are you
+[2026-10-29 12:39:14] Bot: I don't have an answer for that yet, but I can help with online safety topics like phishing and privacy.
+[2026-10-29 12:39:26] You: i wanna know about phishing
+[2026-10-29 12:39:26] Bot: Never click suspicious links. Hover first to see the real URL.
+
+===== New Session 2026-10-29 13:03:28 =====
+[2026-10-29 13:03:29] Bot: 👋 Hello! I'm your Cybersecurity Awareness Bot. What's your name?
+[2026-10-29 13:03:42] You: hey
+[2026-10-29 13:03:42] Bot: Nice to meet you, hey! Ask me about passwords, phishing, privacy, scams, or malware.
+
+===== New Session 2026-10-29 13:04:14 =====
+[2026-10-29 13:04:15] Bot: 👋 Hello! I'm your Cybersecurity Awareness Bot. What's your name?
+
+===== New Session 2026-10-29 13:10:12 =====
+[2026-10-29 13:10:12] Bot: 👋 Hello! I'm your Cybersecurity Bot. What's your name?
+[2026-10-29 13:10:54] You: hey
+[2026-10-29 13:10:54] Bot: Nice to meet you, hey! I can help with safety tips, tasks, and quizzes.
+[2026-10-29 13:11:13] You: tasks
+[2026-10-29 13:11:13] Bot: I didn't quite understand that. Could you rephrase? (Try 'Add task', 'Start quiz', or ask about passwords).
+[2026-10-29 13:11:22] You: add task
+[2026-10-29 13:11:22] Bot: What task would you like to add?
+[2026-10-29 13:12:46] You: any task about phishing
+[2026-10-29 13:12:46] Bot: Check the sender's email address carefully.
+[2026-10-29 13:13:04] You: tshepangmasarira2@gmail.com
+[2026-10-29 13:13:04] Bot: I didn't quite understand that. Could you rephrase? (Try 'Add task', 'Start quiz', or ask about passwords).
