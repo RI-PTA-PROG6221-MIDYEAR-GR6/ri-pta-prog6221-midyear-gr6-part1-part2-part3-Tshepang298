@@ -18,6 +18,7 @@ namespace CyberSecurityChatbot.WPF
         public MainWindow()
         {
             InitializeComponent();
+            TasksList.DisplayMemberPath = "DisplayText";
             Loaded += OnLoaded;
         }
 
@@ -66,7 +67,10 @@ namespace CyberSecurityChatbot.WPF
             UpdateMemoryPanel();
 
             // Check if a task was added to refresh the list
-            if (input.ToLower().Contains("task") || input.ToLower().Contains("remind"))
+            // Check if a task was added or the bot is finishing a task flow to refresh the list
+            if (input.Contains("task", StringComparison.OrdinalIgnoreCase) ||
+                input.Contains("remind", StringComparison.OrdinalIgnoreCase) ||
+                reply.Contains("Task added", StringComparison.OrdinalIgnoreCase))
             {
                 RefreshTasks();
             }
@@ -129,9 +133,12 @@ namespace CyberSecurityChatbot.WPF
         private void RefreshTasks()
         {
             TasksList.Items.Clear();
-            foreach (var t in _responseService.Db.GetTasks())
+            var tasks = _responseService.Db.GetTasks();
+
+            foreach (var t in tasks)
             {
-                TasksList.Items.Add(t.DisplayText);
+                // Add the actual task object to the list
+                TasksList.Items.Add(t);
             }
         }
 
@@ -183,5 +190,29 @@ namespace CyberSecurityChatbot.WPF
 
             Dispatcher.BeginInvoke(new Action(() => ChatScroll.ScrollToEnd()), DispatcherPriority.Background);
         }
+        private void DeleteTask_Click(object sender, RoutedEventArgs e)
+        {
+            if (TasksList.SelectedItem is CyberTask selectedTask)
+            {
+                _responseService.Db.DeleteTask(selectedTask.Id);
+                _responseService.Logger.Log($"Task deleted: '{selectedTask.Title}'");
+                RefreshTasks();
+            }
+            else
+            {
+                MessageBox.Show("Please select a task to delete.");
+            }
+        }
+
+        private void TasksList_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (TasksList.SelectedItem is CyberTask selectedTask && !selectedTask.IsCompleted)
+            {
+                _responseService.Db.CompleteTask(selectedTask.Id);
+                _responseService.Logger.Log($"Task marked as complete: '{selectedTask.Title}'");
+                RefreshTasks();
+            }
+        }
     }
+
 }
