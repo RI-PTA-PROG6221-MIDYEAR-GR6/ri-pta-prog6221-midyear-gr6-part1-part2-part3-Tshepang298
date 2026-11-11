@@ -15,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|solutionrelative:wpfcybersecuritychatbot\\services\\responseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\wpfcybersecuritychatbot\\wpfcybersecuritychatbot\\services\\activitylogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|solutionrelative:wpfcybersecuritychatbot\\services\\activitylogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\wpfcybersecuritychatbot\\wpfcybersecuritychatbot\\models\\activityrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|solutionrelative:wpfcybersecuritychatbot\\models\\activityrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\wpfcybersecuritychatbot\\wpfcybersecuritychatbot\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|solutionrelative:wpfcybersecuritychatbot\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\wpfcybersecuritychatbot\\wpfcybersecuritychatbot\\services\\activitylogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|solutionrelative:wpfcybersecuritychatbot\\services\\activitylogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{731B26BE-B932-4FBE-85A5-A82A1C69EF53}|WPFCybersecurityChatBot\\WPFCybersecurityChatBot.csproj|c:\\users\\student\\desktop\\github\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-tshepang298\\wpfcybersecuritychatbot\\wpfcybersecuritychatbot\\services\\memoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,11 +74,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ActivityLogService.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\WPFCybersecurityChatBot\\WPFCybersecurityChatBot\\Services\\ActivityLogService.cs",
               "RelativeDocumentMoniker": "WPFCybersecurityChatBot\\Services\\ActivityLogService.cs",
@@ -91,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\WPFCybersecurityChatBot\\WPFCybersecurityChatBot\\Services\\DatabaseService.cs",
               "RelativeDocumentMoniker": "WPFCybersecurityChatBot\\Services\\DatabaseService.cs",
@@ -104,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ActivityRecord.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\WPFCybersecurityChatBot\\WPFCybersecurityChatBot\\Models\\ActivityRecord.cs",
               "RelativeDocumentMoniker": "WPFCybersecurityChatBot\\Models\\ActivityRecord.cs",
@@ -123,7 +127,7 @@
               "RelativeDocumentMoniker": "WPFCybersecurityChatBot\\Services\\ResponseService.cs",
               "ToolTip": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\WPFCybersecurityChatBot\\WPFCybersecurityChatBot\\Services\\ResponseService.cs",
               "RelativeToolTip": "WPFCybersecurityChatBot\\Services\\ResponseService.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAuwIcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwEYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T11:40:43.137Z",
               "EditorCaption": ""
@@ -146,9 +150,9 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\WPFCybersecurityChatBot\\WPFCybersecurityChatBot\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPFCybersecurityChatBot\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\WPFCybersecurityChatBot\\WPFCybersecurityChatBot\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "WPFCybersecurityChatBot\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF8AAABDAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\WPFCybersecurityChatBot\\WPFCybersecurityChatBot\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFCybersecurityChatBot\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAIwNYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T11:29:40.822Z",
               "EditorCaption": ""
@@ -206,10 +210,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "AudioService.cs",
@@ -230,7 +230,7 @@
               "RelativeDocumentMoniker": "WPFCybersecurityChatBot\\Services\\ChatHistoryService.cs",
               "ToolTip": "C:\\Users\\Student\\Desktop\\GitHub\\ri-pta-prog6221-midyear-gr6-part1-part2-part3-Tshepang298\\WPFCybersecurityChatBot\\WPFCybersecurityChatBot\\Services\\ChatHistoryService.cs",
               "RelativeToolTip": "WPFCybersecurityChatBot\\Services\\ChatHistoryService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T11:40:16.825Z",
               "EditorCaption": ""
