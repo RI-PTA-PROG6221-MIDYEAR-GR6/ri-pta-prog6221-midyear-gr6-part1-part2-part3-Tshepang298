@@ -1,0 +1,82 @@
+
+===== New Session 2026-11-11 12:41:52 =====
+[2026-11-11 12:41:52] Bot: 👋 Hello! I'm your Cybersecurity Bot. What's your name?
+[2026-11-11 12:42:06] You: hello
+[2026-11-11 12:42:06] Bot: Nice to meet you, hello! I can help with safety tips, tasks, and quizzes.
+[2026-11-11 12:42:15] You: how are you
+[2026-11-11 12:42:15] Bot: I didn't quite understand that. Could you rephrase? (Try 'Add task', 'Start quiz', or ask about passwords).
+[2026-11-11 12:42:49] You: i want to know about password safety
+[2026-11-11 12:42:49] Bot: Great question! Never reuse passwords.
+[2026-11-11 12:43:06] You: any other way?
+[2026-11-11 12:43:06] Bot: I didn't quite understand that. Could you rephrase? (Try 'Add task', 'Start quiz', or ask about passwords).
+
+===== New Session 2026-11-11 12:56:03 =====
+[2026-11-11 12:56:04] Bot: 👋 Hello! I'm your Cybersecurity Bot. What's your name?
+[2026-11-11 12:57:22] You: start quiz
+[2026-11-11 12:57:22] Bot: Nice to meet you, start quiz! I can help with safety tips, tasks, and quizzes.
+[2026-11-11 12:57:38] You: start quiz
+[2026-11-11 12:57:38] Bot: Quiz started! Question 1: What should you do if you receive an email asking for your password?
+Options: A) Reply with your password | B) Delete the email | C) Report it as phishing
+[2026-11-11 12:59:14] You: C
+[2026-11-11 12:59:50] You: i want to know about phishing
+[2026-11-11 13:03:36] You: Add task to enable two-factor authentication
+
+===== New Session 2026-11-11 13:03:51 =====
+[2026-11-11 13:03:52] Bot: 👋 Hello! I'm your Cybersecurity Bot. What's your name?
+[2026-11-11 13:04:01] You: hey
+[2026-11-11 13:04:01] Bot: Nice to meet you, hey! I can help with safety tips, tasks, and quizzes.
+[2026-11-11 13:04:16] You: i want to know about phishing
+[2026-11-11 13:04:16] Bot: Great question! Never click suspicious links.
+[2026-11-11 13:04:24] You: Add task to enable two-factor authentication
+[2026-11-11 13:04:24] Bot: Task started for 'to enable two-factor authentication'. Please provide a short description for this task.
+[2026-11-11 13:04:42] You: My Information
+[2026-11-11 13:04:42] Bot: Task added with description 'My Information'. Would you like a reminder? (Type 'yes' or 'no')
+[2026-11-11 13:04:52] You: yes
+[2026-11-11 13:04:52] Bot: Got it! I'll remind you in 3 days. (Reminder set).
+
+===== New Session 2026-11-11 13:11:24 =====
+[2026-11-11 13:11:26] Bot: 👋 Hello! I'm your Cybersecurity Bot. What's your name?
+[2026-11-11 13:11:30] You: hey
+[2026-11-11 13:11:30] Bot: Nice to meet you, hey! I can help with safety tips, tasks, and quizzes.
+[2026-11-11 13:11:48] You: i want to know about phishing
+[2026-11-11 13:11:48] Bot: Great question! Never click suspicious links.
+[2026-11-11 13:12:02] You: add this to task
+[2026-11-11 13:12:02] Bot: I didn't quite understand that. Could you rephrase? (Try 'Add task', 'Start quiz', or ask about passwords).
+[2026-11-11 13:12:13] You: Add task
+[2026-11-11 13:12:13] Bot: What task would you like to add?
+[2026-11-11 13:12:22] You: Phishing
+[2026-11-11 13:12:22] Bot: Never click suspicious links.
+[2026-11-11 13:12:43] You: add task
+[2026-11-11 13:12:43] Bot: What task would you like to add?
+[2026-11-11 13:13:12] You: Add task to check privacy settings
+[2026-11-11 13:13:12] Bot: Task started for 'to check privacy settings'. Please provide a short description for this task.
+[2026-11-11 13:13:58] You: My Information
+[2026-11-11 13:13:58] Bot: Task added with description 'My Information'. Would you like a reminder? (Type 'yes' or 'no')
+[2026-11-11 13:14:03] You: yes
+[2026-11-11 13:14:03] Bot: Got it! I'll remind you in 3 days. (Reminder set).
+
+===== New Session 2026-11-11 13:28:13 =====
+[2026-11-11 13:28:15] Bot: 👋 Hello! I'm your Cybersecurity Bot. What's your name?
+[2026-11-11 13:28:25] You: hey
+[2026-11-11 13:28:25] Bot: Nice to meet you, hey! I can help with safety tips, tasks, and quizzes.
+[2026-11-11 13:29:23] You: i want to know about password safety
+[2026-11-11 13:29:23] Bot: Great question! Never reuse passwords.
+[2026-11-11 13:29:32] You: add task
+[2026-11-11 13:29:32] Bot: Please type the task in one line. For example: 'Add task to enable two-factor authentication' or 'Add task Review privacy settings'.
+[2026-11-11 13:30:00] You: Add task review privacy settings
+[2026-11-11 13:30:00] Bot: Task started for 'review privacy settings'. Please provide a short description for this task.
+[2026-11-11 13:30:13] You: My Information
+[2026-11-11 13:30:13] Bot: Task added with description 'My Information'. Would you like a reminder? (Type 'yes' or 'no')
+[2026-11-11 13:30:17] You: yes
+[2026-11-11 13:30:17] Bot: Got it! I'll remind you in 3 days. (Reminder set).
+[2026-11-11 13:31:17] You: start quiz
+[2026-11-11 13:31:17] Bot: Quiz started! Question 1: What should you do if you receive an email asking for your password?
+Options: A) Reply with your password | B) Delete the email | C) Report it as phishing
+[2026-11-11 13:31:25] You: C
+[2026-11-11 13:31:31] You: B
+[2026-11-11 13:31:43] You: B
+[2026-11-11 13:31:50] You: B
+[2026-11-11 13:32:01] You: A
+[2026-11-11 13:32:01] Bot: Quiz Completed! Score: 3/5
+[2026-11-11 13:32:07] You: A
+[2026-11-11 13:32:07] Bot: I didn't quite understand that. Could you rephrase? (Try 'Add task', 'Start quiz', or ask about passwords).
