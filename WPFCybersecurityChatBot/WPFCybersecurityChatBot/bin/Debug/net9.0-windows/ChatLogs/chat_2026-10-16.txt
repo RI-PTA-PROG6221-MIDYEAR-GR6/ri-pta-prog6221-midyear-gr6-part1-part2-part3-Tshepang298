@@ -1,0 +1,5 @@
+
+===== New Session 2026-10-16 12:09:52 =====
+[2026-10-16 12:09:53] Bot: 👋 Hello! I'm your Cybersecurity Awareness Bot. What's your name?
+[2026-10-16 12:13:00] You: hey
+[2026-10-16 12:13:00] Bot: Nice to meet you, hey! Ask me about passwords, phishing, privacy, scams, or malware.
