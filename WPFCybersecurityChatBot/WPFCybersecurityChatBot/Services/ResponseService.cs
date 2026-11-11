@@ -67,7 +67,7 @@ namespace CyberSecurityChatbot.WPF.Services
 
                 if (string.IsNullOrEmpty(title))
                 {
-                    return "What task would you like to add?";
+                    return "Please type the task in one line. For example: 'Add task to enable two-factor authentication' or 'Add task Review privacy settings'.";
                 }
 
                 _pendingTaskTitle = title;
